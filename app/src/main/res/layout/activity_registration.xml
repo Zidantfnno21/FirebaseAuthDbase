@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".RegistActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="210dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="160dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:padding="7dp"
+        android:text="Create Your Account"
+        android:textColor="@color/couldbe_primary"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/tiEmail"
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukkan Email"
+        android:padding="5dp"
+        android:textColorHint="@color/whit_no_black_no"
+        app:boxStrokeColor="@color/couldbe_primary"
+        app:boxStrokeWidth="2dp"
+        app:hintTextColor="@color/couldbe_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/whit_no_black_no"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/tiIdName"
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiEmail"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukkan IdName"
+        android:padding="5dp"
+        android:textColorHint="@color/whit_no_black_no"
+        app:boxStrokeColor="@color/couldbe_primary"
+        app:boxStrokeWidth="2dp"
+        app:hintTextColor="@color/couldbe_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etIdName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/couldbe_primary"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiPassword"
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiIdName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Masukkan Kata Sandi"
+        android:padding="5dp"
+        android:textColorHint="@color/whit_no_black_no"
+        app:boxStrokeColor="@color/couldbe_primary"
+        app:boxStrokeWidth="2dp"
+        app:hintTextColor="@color/couldbe_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/couldbe_primary"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiKonfirmPassword"
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Konfirmasi Kata Sandi"
+        android:padding="5dp"
+        android:textColorHint="@color/whit_no_black_no"
+        app:boxStrokeColor="@color/couldbe_primary"
+        app:boxStrokeWidth="2dp"
+        app:hintTextColor="@color/couldbe_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etKonfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/couldbe_primary"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiKonfirmPassword"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/custom_button_bg"
+        android:text="Daftar"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.TIXID" />
+
+
+    <TextView
+        android:id="@+id/tvSudahRegist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btDaftar"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Sudah Punya Akun? Masuk di Sini"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/couldbe_primary"
+        android:textSize="14dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/pbLoading"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_back"
+        android:visibility="gone"/>
+
+</RelativeLayout>

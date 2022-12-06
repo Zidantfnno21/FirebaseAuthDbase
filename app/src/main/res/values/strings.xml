@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TIXID</string>
+    <string name="masukkan_nama_data">Masukkan Nama Film</string>
+    <string name="masukkan_harga_data">Masukkan Harga Ticket</string>
+</resources>

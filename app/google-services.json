@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "195829490287",
+    "firebase_url": "https://project-tixid-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "project-tixid",
+    "storage_bucket": "project-tixid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195829490287:android:bb244e1a2a104e969da39a",
+        "android_client_info": {
+          "package_name": "com.example.tixid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195829490287-n990bosoilmfnnjls8sb0cspkc2p8qi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKYguNx6CAv0yPyPSSi_znjBlzAMmsqvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195829490287-n990bosoilmfnnjls8sb0cspkc2p8qi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
