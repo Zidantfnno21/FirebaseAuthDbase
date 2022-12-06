@@ -39,7 +39,7 @@
                     android:importantForAutofill="no"
                     android:inputType="text"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/couldbe_primary"
+                    android:textColorHint="@color/whit_no_black_no"
                     android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 

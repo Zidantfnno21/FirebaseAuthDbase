@@ -26,7 +26,7 @@
                 android:layout_marginEnd="10dp"
                 android:hint="@string/masukkan_nama_data"
                 android:padding="5dp"
-                android:textColorHint="@color/whit_no_black_no"
+                android:textColorHint="@color/couldbe_primary"
                 app:boxStrokeColor="@color/couldbe_primary"
                 app:boxStrokeWidth="2dp"
                 app:hintTextColor="@color/couldbe_primary">
@@ -38,7 +38,7 @@
                     android:importantForAutofill="no"
                     android:inputType="text"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/white"
+                    android:textColorHint="@color/whit_no_black_no"
                     android:textSize="14sp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,7 +52,7 @@
                 android:layout_marginEnd="10dp"
                 android:hint="@string/masukkan_harga_data"
                 android:padding="5dp"
-                android:textColorHint="@color/whit_no_black_no"
+                android:textColorHint="@color/couldbe_primary"
                 app:boxStrokeColor="@color/blue_shade_2"
                 app:boxStrokeWidth="2dp"
                 app:hintTextColor="@color/couldbe_primary">
@@ -78,7 +78,7 @@
                 android:layout_marginEnd="10dp"
                 android:hint="Masukkan Genre Film"
                 android:padding="5dp"
-                android:textColorHint="@color/whit_no_black_no"
+                android:textColorHint="@color/couldbe_primary"
                 app:boxStrokeColor="@color/couldbe_primary"
                 app:boxStrokeWidth="2dp"
                 app:hintTextColor="@color/couldbe_primary">
@@ -104,7 +104,7 @@
                 android:layout_marginEnd="10dp"
                 android:hint="Masukkan Link Poster Film"
                 android:padding="5dp"
-                android:textColorHint="@color/whit_no_black_no"
+                android:textColorHint="@color/couldbe_primary"
                 app:boxStrokeColor="@color/couldbe_primary"
                 app:boxStrokeWidth="2dp"
                 app:hintTextColor="@color/couldbe_primary">
@@ -130,7 +130,7 @@
                 android:layout_marginEnd="10dp"
                 android:hint="Masukkan URL Film"
                 android:padding="5dp"
-                android:textColorHint="@color/whit_no_black_no"
+                android:textColorHint="@color/couldbe_primary"
                 app:boxStrokeColor="@color/couldbe_primary"
                 app:boxStrokeWidth="2dp"
                 app:hintTextColor="@color/couldbe_primary">
@@ -156,7 +156,7 @@
                 android:layout_marginEnd="10dp"
                 android:hint="Masukkan Sinopsis Film"
                 android:padding="5dp"
-                android:textColorHint="@color/whit_no_black_no"
+                android:textColorHint="@color/couldbe_primary"
                 app:boxStrokeColor="@color/couldbe_primary"
                 app:boxStrokeWidth="3dp"
                 app:hintTextColor="@color/couldbe_primary">
